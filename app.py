@@ -3,8 +3,8 @@ from tortoise import Tortoise
 import os
 
 WEBHOOK_HOST = 'https://stanleyfeedbackbot.herokuapp.com'
-WEBHOOK_PATH = '/webhook/'
-WEBHOOK_URL = f"{WEBHOOK_HOST}{WEBHOOK_PATH}"
+WEBHOOK_PATH = 'webhook'
+WEBHOOK_URL = f"{WEBHOOK_HOST}/{WEBHOOK_PATH}/"
 
 # webserver settings
 WEBAPP_HOST = '0.0.0.0'  # or ip
