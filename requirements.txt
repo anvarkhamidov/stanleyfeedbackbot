@@ -1,0 +1,6 @@
+aiogram==2.7
+aiohttp==3.6.2
+python-dotenv==0.13.0
+tortoise-orm==0.16.13
+asyncpg==0.20.1
+PyYAML==5.3.1
